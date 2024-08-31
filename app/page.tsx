@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Blogs from "@/components/Blogs";
+import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import Preview from "@/components/Preview";
 import Services from "@/components/Services";
@@ -13,7 +14,7 @@ const Home = () => {
       <Preview />
       <About />
       <Showcase />
-      <About />
+      <Features />
       <Services />
       <Blogs />
     </>

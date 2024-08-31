@@ -28,7 +28,7 @@ const logos = [
 const Sponsored = () => {
   return (
     <div className="w-full py-20">
-      <div className="flex w-full flex-col items-center justify-center px-4 md:px-8">
+      <div className="flex w-full flex-col gap-3 items-center justify-center px-4 md:px-8">
         <div className="font-medium uppercase">Sponsored by</div>
         <div className="grid grid-cols-3 gap-x-6 md:grid-cols-5 lg:grid-cols-6">
           {logos.map((logo, key) => (

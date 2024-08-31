@@ -5,7 +5,7 @@ const Blogs = () => {
   return (
     <BgContainer>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="mx-auto  max-w-7xl p-6 lg:px-8 py-24 ">
           <div className="flex flex-wrap -m-4">
             <div className="p-4 lg:w-1/3">
               <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
