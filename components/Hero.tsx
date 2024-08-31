@@ -71,7 +71,7 @@ export default function Hero() {
         {/* 2 Grid Hero */}
         {/* <BgContainer> */}
         <section className="text-gray-600 body-font min-h-screen flex flex-col justify-center items-center">
-          <div className="p-6 lg:px-8 mx-auto  max-w-7xl  flex px-5 pb-24 md:flex-row-reverse flex-col items-center gap-6 lg:gap-8">
+          <div className="p-6 lg:px-8 mx-auto  max-w-7xl  flex px-5 pb-24 md:flex-row-reverse flex-col items-center gap-10 lg:gap-8">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 flex flex-col gap-4">
               <div>
                 <img
@@ -118,7 +118,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
-            <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col gap-6 lg:gap-8 md:items-start md:text-left items-center text-center">
+            <div className="lg:flex-grow md:w-1/2 flex flex-col pr-8 gap-6 lg:gap-8 md:items-start md:text-left items-center text-center">
               <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-gray-900">
                 Free Background remover: Erase the background from an image
               </h1>
