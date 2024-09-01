@@ -5,6 +5,7 @@ import { Dialog, DialogPanel } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Sponsored from "./SponsoredBy";
 import BgContainer from "./BgContainer";
+import Image from "next/image";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -74,7 +75,9 @@ export default function Hero() {
           <div className="p-6 lg:px-8 mx-auto  max-w-7xl  flex px-5 pb-24 md:flex-row-reverse flex-col items-center gap-10 lg:gap-8">
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 flex flex-col gap-4">
               <div>
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   className="object-cover object-center rounded"
                   alt="hero"
                   src="https://fps.cdnpk.net/images/ai/bgRemover/advatages/cars.webp?w=1036&h=1036"
@@ -82,35 +85,45 @@ export default function Hero() {
               </div>
               <div className="flex justify-between gap-4 w-full">
                 <div>
-                  <img
+                  <Image
+                    width={200}
+                    height={200}
                     className="object-cover object-center rounded"
                     alt="hero"
                     src="https://fps.cdnpk.net/images/ai/bgRemover/bkg-0.webp?w=192&h=146"
                   />
                 </div>
                 <div>
-                  <img
+                  <Image
+                    width={200}
+                    height={200}
                     className="object-cover object-center rounded"
                     alt="hero"
                     src="https://fps.cdnpk.net/images/ai/bgRemover/bkg-1.webp?w=192&h=146"
                   />
                 </div>
                 <div>
-                  <img
+                  <Image
+                    width={200}
+                    height={200}
                     className="object-cover object-center rounded"
                     alt="hero"
                     src="https://fps.cdnpk.net/images/ai/bgRemover/bkg-2.webp?w=192&h=146"
                   />
                 </div>
                 <div>
-                  <img
+                  <Image
+                    width={200}
+                    height={200}
                     className="object-cover object-center rounded"
                     alt="hero"
                     src="https://fps.cdnpk.net/images/ai/bgRemover/bkg-3.webp?w=192&h=146"
                   />
                 </div>
                 <div>
-                  <img
+                  <Image
+                    width={200}
+                    height={200}
                     className="object-cover object-center rounded"
                     alt="hero"
                     src="https://fps.cdnpk.net/images/ai/bgRemover/bkg-4.webp?w=192&h=146"

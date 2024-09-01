@@ -37,7 +37,7 @@ const Services = () => {
                 </h2>
                 <p className="leading-relaxed text-base">
                   Replace backgrounds instantly with a few clicks, choosing from
-                  Freepik’s extensive library of stunning photos.
+                  Freepik is extensive library of stunning photos.
                 </p>
               </div>
             </div>
@@ -51,7 +51,7 @@ const Services = () => {
                 </h2>
                 <p className="leading-relaxed text-base">
                   Generate and use AI-generated backgrounds from your prompts.
-                  It's easy, fast, and tailored just for you!
+                  It is easy, fast, and tailored just for you!
                 </p>
               </div>
             </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import BgContainer from "./BgContainer";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -7,7 +8,9 @@ const About = () => {
       <section className="text-gray-600 body-font min-h-screen flex justify-center items-center">
         <div className="p-6 lg:px-8 mx-auto  max-w-7xl  flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
+            <Image
+              width={200}
+              height={200}
               className="object-cover object-center rounded"
               alt="hero"
               src="https://imgs.search.brave.com/aZhlXwxLNGnOWTBXD0UDYJx2TVlfgWPDyJYhtfrBOqw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5waXhpby5jb20v/aW5waXhpby1scC1z/dGF0aWMvZGlzdC9p/bWFnZXMvaGFsZi1t/ZWRpYS93aGF0LXNl/dHMtYXBhcnQucG5n"
@@ -18,7 +21,7 @@ const About = () => {
               Remove backgrounds 100% automatically in 5 seconds with one click
             </h1>
             <p className="mb-8 leading-relaxed text-lg">
-              Thanks to remove.bg's clever AI, you can slash editing time - and
+              Thanks to remove.bg is clever AI, you can slash editing time - and
               have more fun! No matter if you want to make a background
               transparent (PNG), add a white background to a photo, extract or
               isolate the subject, or get the cutout of a photo - you can do all

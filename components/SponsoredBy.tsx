@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const logos = [
   {
     name: "Vercel",
@@ -32,7 +34,10 @@ const Sponsored = () => {
         <div className="font-medium uppercase">Sponsored by</div>
         <div className="grid grid-cols-3 gap-x-6 md:grid-cols-5 lg:grid-cols-6">
           {logos.map((logo, key) => (
-            <img
+            <Image
+              layout="fill"
+              objectFit="contain"
+              width={28}
               key={key}
               src={logo.url}
               className="h-10 w-28 px-2 brightness-0 "

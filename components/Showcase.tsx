@@ -1,5 +1,6 @@
 import React from "react";
 import BgContainer from "./BgContainer";
+import Image from "next/image";
 
 const Showcase = () => {
   return (
@@ -18,7 +19,9 @@ const Showcase = () => {
           <div className="flex flex-wrap -m-4">
             <div className="p-4 md:w-1/4">
               <div className="h-full border- border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   className="lg:h-96 md:h-36 w-full object-cover object-center"
                   src="https://www.slazzer.com/static/images/home-page/demo-human-01.jpg"
                   alt="blog"
@@ -27,7 +30,9 @@ const Showcase = () => {
             </div>
             <div className="p-4 md:w-1/4">
               <div className="h-full border- border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   className="lg:h-96 md:h-36 w-full object-cover object-center"
                   src="https://www.slazzer.com/static/images/home-page/demo-human-02.jpg"
                   alt="blog"
@@ -36,7 +41,9 @@ const Showcase = () => {
             </div>
             <div className="p-4 md:w-1/4">
               <div className="h-full border- border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   className="lg:h-96 md:h-36 w-full object-cover object-center"
                   src="https://www.slazzer.com/static/images/home-page/demo-human-03.jpg"
                   alt="blog"
@@ -45,7 +52,9 @@ const Showcase = () => {
             </div>
             <div className="p-4 md:w-1/4">
               <div className="h-full border- border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
-                <img
+                <Image
+                  width={200}
+                  height={200}
                   className="lg:h-96 md:h-36 w-full object-cover object-center"
                   src="https://www.slazzer.com/static/images/home-page/demo-human-04.jpg"
                   alt="blog"

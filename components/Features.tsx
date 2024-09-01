@@ -1,5 +1,6 @@
 import React from "react";
 import BgContainer from "./BgContainer";
+import Image from "next/image";
 
 const Features = () => {
   return (
@@ -7,7 +8,9 @@ const Features = () => {
       <section className="text-gray-600 body-font min-h-screen flex justify-center items-center">
         <div className="p-6 lg:px-8 mx-auto md:gap-16 lg:gap-24  max-w-7xl flex px-5 py-24 md:flex-row-reverse flex-col items-center">
           <div className="  lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-            <img
+            <Image
+              width={222}
+              height={200}
               className="object-cover object-center rounded"
               alt="hero"
               src="https://imgs.search.brave.com/2mva0MkRPxNr-i5Vt8wT7JUm--aIPTQK9Obgt32Hcs0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jbGlw/cGluZ21hZ2ljLmNv/bS9jZi9jbS9pbWFn/ZXMvaGFpci1leGFt/cGxlX1YyXzIzYWRk/Mzc2NzQwMWVlNzY4/YWNiMDg3N2E2Mzdk/MTA2LmpwZw"
