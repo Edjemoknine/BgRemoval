@@ -9,9 +9,9 @@ const About = () => {
         <div className="p-6 lg:px-8 mx-auto  max-w-7xl  flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
             <Image
-              width={200}
-              height={200}
-              className="object-cover object-center rounded"
+              width={500}
+              height={500}
+              className="object-cover object-center rounded w-full h-full"
               alt="hero"
               src="https://imgs.search.brave.com/aZhlXwxLNGnOWTBXD0UDYJx2TVlfgWPDyJYhtfrBOqw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW5waXhpby5jb20v/aW5waXhpby1scC1z/dGF0aWMvZGlzdC9p/bWFnZXMvaGFsZi1t/ZWRpYS93aGF0LXNl/dHMtYXBhcnQucG5n"
             />

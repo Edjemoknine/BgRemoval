@@ -76,9 +76,9 @@ export default function Hero() {
             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 flex flex-col gap-4">
               <div>
                 <Image
-                  width={200}
-                  height={200}
-                  className="object-cover object-center rounded"
+                  width={500}
+                  height={500}
+                  className="object-cover object-center rounded w-full h-full"
                   alt="hero"
                   src="https://fps.cdnpk.net/images/ai/bgRemover/advatages/cars.webp?w=1036&h=1036"
                 />
@@ -124,7 +124,7 @@ export default function Hero() {
                   <Image
                     width={200}
                     height={200}
-                    className="object-cover object-center rounded"
+                    className="object-cover  object-center rounded"
                     alt="hero"
                     src="https://fps.cdnpk.net/images/ai/bgRemover/bkg-4.webp?w=192&h=146"
                   />
